@@ -53,5 +53,5 @@
 
 # Meta
 
-- [Why unit tests and how to make them work for you]()
-- [Anti-patterns]()
+- [Why unit tests and how to make them work for you](why-unit-tests.md)
+- [Anti-patterns](anti-patterns.md)
