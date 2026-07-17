@@ -1,0 +1,9 @@
+[package]
+name = "roman-numerals-v3"
+edition.workspace = true
+version.workspace = true
+publish.workspace = true
+license.workspace = true
+
+[dev-dependencies]
+proptest = "1.11.0"

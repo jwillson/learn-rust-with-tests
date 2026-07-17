@@ -1,0 +1,10 @@
+[package]
+name = "templating-v3"
+edition.workspace = true
+version.workspace = true
+publish.workspace = true
+license.workspace = true
+
+[dependencies]
+askama = "0.16.0"
+pulldown-cmark = "0.13.4"

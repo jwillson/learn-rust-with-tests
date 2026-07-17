@@ -1,0 +1,6 @@
+[package]
+name = "cancellation-v1"
+edition.workspace = true
+version.workspace = true
+publish.workspace = true
+license.workspace = true

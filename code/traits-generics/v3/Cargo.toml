@@ -1,0 +1,9 @@
+[package]
+name = "traits-generics-v3"
+edition.workspace = true
+version.workspace = true
+publish.workspace = true
+license.workspace = true
+
+[dev-dependencies]
+traits-generics-v2 = { path = "../v2" }

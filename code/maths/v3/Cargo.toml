@@ -1,0 +1,9 @@
+[package]
+name = "maths-v3"
+edition.workspace = true
+version.workspace = true
+publish.workspace = true
+license.workspace = true
+
+[dev-dependencies]
+roxmltree = "0.21.1"

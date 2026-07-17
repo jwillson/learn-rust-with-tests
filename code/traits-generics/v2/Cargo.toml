@@ -1,0 +1,6 @@
+[package]
+name = "traits-generics-v2"
+edition.workspace = true
+version.workspace = true
+publish.workspace = true
+license.workspace = true

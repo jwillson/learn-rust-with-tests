@@ -1,0 +1,24 @@
+[book]
+title = "Learn Rust with Tests"
+authors = ["Jason Willson"]
+description = "Learn Rust through test-driven development. A port of Chris James' Learn Go with Tests."
+language = "en"
+src = "src"
+
+[output.html]
+default-theme = "rust"
+preferred-dark-theme = "ayu"
+git-repository-url = "https://github.com/jwillson/learn-rust-with-tests"
+edit-url-template = "https://github.com/jwillson/learn-rust-with-tests/edit/main/{path}"
+
+[output.html.fold]
+enable = true
+level = 1
+
+# Snippets are `{{#include}}`d from real crates under code/, and many of them are
+# deliberate intermediate states that don't compile yet. A "Run" button on those
+# would just confuse readers, so the playground is display-only. Correctness is
+# guaranteed by `cargo test --workspace`, not by mdbook.
+[output.html.playground]
+editable = false
+runnable = false

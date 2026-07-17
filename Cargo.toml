@@ -1,0 +1,12 @@
+[workspace]
+resolver = "3"
+# Every chapter keeps one crate per TDD step (v1, v2, ...), so `cargo test
+# --workspace` compiles and tests every state the book walks the reader through,
+# not just the finished code.
+members = ["code/*/v*"]
+
+[workspace.package]
+edition = "2024"
+version = "0.1.0"
+publish = false
+license = "MIT"

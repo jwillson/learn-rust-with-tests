@@ -1,0 +1,7 @@
+<h1>{{ post.title }}</h1>
+
+<p>{{ post.description }}</p>
+
+Tags: <ul>{% for tag in post.tags %}<li>{{ tag }}</li>{% endfor %}</ul>
+
+{{ html_body|safe }}
