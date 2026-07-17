@@ -1,0 +1,6 @@
+[package]
+name = "cancellation-aware-reader-v1"
+edition.workspace = true
+version.workspace = true
+publish.workspace = true
+license.workspace = true

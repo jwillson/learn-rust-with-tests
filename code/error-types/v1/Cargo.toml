@@ -1,0 +1,12 @@
+[package]
+name = "error-types-v1"
+edition.workspace = true
+version.workspace = true
+publish.workspace = true
+license.workspace = true
+
+[dependencies]
+tokio = { version = "1", features = ["rt", "rt-multi-thread", "net", "io-util", "macros"] }
+
+[dev-dependencies]
+axum = "0.8"
