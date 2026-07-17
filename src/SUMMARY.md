@@ -1,6 +1,7 @@
 # Summary
 
 [Learn Rust with Tests](introduction.md)
+[How to use this book](how-to-use-this-book.md)
 
 # Rust Fundamentals
 

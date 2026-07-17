@@ -25,24 +25,47 @@ Option & pattern matching, Lifetimes.
 
 [lgwt]: https://github.com/quii/learn-go-with-tests
 
+## How to use it
+
+This is a **workbook**. For each chapter, write the failing test yourself and
+watch it fail *before* reading the solution — that red-green-refactor loop is
+the thing being taught. Read the chapters in order; the fundamentals are the
+spine everything else builds on. The first page of the book, **How to use this
+book**, spells out the learning loop in full.
+
 ## Reading it
 
 ```sh
-cargo install mdbook   # once
-mdbook serve --open    # http://localhost:3000
+cargo install mdbook --locked   # once
+mdbook serve --open             # http://localhost:3000, live-reloads
 ```
+
+Or read the Markdown under `src/` directly; `src/SUMMARY.md` is the table of
+contents.
 
 ## Running the code
 
 ```sh
-cargo test --workspace
+cargo test --workspace          # compile and run every chapter's code
+cargo test -p hello-world-v3    # a single snapshot
+cargo bench -p iteration-v3     # the criterion benchmarks
+cargo run  -p maths-v3 > clock.svg   # chapters with a binary actually run
 ```
 
 Every chapter keeps one crate per step of its TDD cycle — `code/hello-world/v1`
 through `v8` — so each intermediate state the book walks you through is a real
-program that really compiles. The book's snippets are `{{#include}}`d straight out
-of those crates, which means the code on the page is the code the test suite runs.
-It can't drift.
+program that really compiles, and diffing one version against the next shows
+exactly what a chapter changed. The book's snippets are `{{#include}}`d straight
+out of those crates, which means the code on the page is the code the test suite
+runs. It can't drift.
+
+The book models idiomatic Rust, so the same checks CI enforces are worth running
+on your own attempts:
+
+```sh
+cargo clippy --workspace --all-targets -- -D warnings
+cargo fmt --all --check
+```
 
 ## Layout
 
