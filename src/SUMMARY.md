@@ -37,6 +37,14 @@
 - [Time](time.md)
 - [WebSockets](websockets.md)
 
+# Rust Projects
+
+- [Lexing and parsing](lexing-and-parsing.md)
+- [A tree-walking interpreter](tree-walking-interpreter.md)
+- [A bytecode virtual machine](bytecode-virtual-machine.md)
+- [An LRU cache](lru-cache.md)
+- [Parallel data processing](parallel-data-processing.md)
+
 # Testing Fundamentals
 
 - [Introduction to acceptance tests](intro-to-acceptance-tests.md)
