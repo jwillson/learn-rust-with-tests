@@ -39,10 +39,10 @@
 
 # Testing Fundamentals
 
-- [Introduction to acceptance tests]()
-- [Scaling acceptance tests]()
-- [Working without mocks, stubs and spies]()
-- [Refactoring checklist]()
+- [Introduction to acceptance tests](intro-to-acceptance-tests.md)
+- [Scaling acceptance tests](scaling-acceptance-tests.md)
+- [Working without mocks, stubs and spies](working-without-mocks.md)
+- [Refactoring checklist](refactoring-checklist.md)
 
 # Questions and Answers
 
