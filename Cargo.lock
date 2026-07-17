@@ -298,6 +298,18 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "c8d4a3bb8b1e0c1050499d1815f5ab16d04f0959b233085fb31653fbfc9d98f9"
 
 [[package]]
+name = "command-line-v1"
+version = "0.1.0"
+dependencies = [
+ "axum",
+ "http-body-util",
+ "serde",
+ "serde_json",
+ "tokio",
+ "tower",
+]
+
+[[package]]
 name = "concurrency-v1"
 version = "0.1.0"
 dependencies = [
@@ -701,6 +713,30 @@ version = "0.1.0"
 [[package]]
 name = "integers-v2"
 version = "0.1.0"
+
+[[package]]
+name = "io-sorting-v1"
+version = "0.1.0"
+dependencies = [
+ "axum",
+ "http-body-util",
+ "serde",
+ "serde_json",
+ "tokio",
+ "tower",
+]
+
+[[package]]
+name = "io-sorting-v2"
+version = "0.1.0"
+dependencies = [
+ "axum",
+ "http-body-util",
+ "serde",
+ "serde_json",
+ "tokio",
+ "tower",
+]
 
 [[package]]
 name = "iteration-v1"
@@ -1422,6 +1458,10 @@ dependencies = [
  "askama",
  "pulldown-cmark",
 ]
+
+[[package]]
+name = "time-v1"
+version = "0.1.0"
 
 [[package]]
 name = "tinytemplate"

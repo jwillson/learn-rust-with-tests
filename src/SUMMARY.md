@@ -32,9 +32,9 @@
 
 - [HTTP server](http-server.md)
 - [JSON, routing and embedding](json-routing-embedding.md)
-- [IO and sorting]()
-- [Command line and project structure]()
-- [Time]()
+- [IO and sorting](io-and-sorting.md)
+- [Command line and project structure](command-line-and-project-structure.md)
+- [Time](time.md)
 - [WebSockets]()
 
 # Testing Fundamentals
