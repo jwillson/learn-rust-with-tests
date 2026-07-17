@@ -35,7 +35,7 @@
 - [IO and sorting](io-and-sorting.md)
 - [Command line and project structure](command-line-and-project-structure.md)
 - [Time](time.md)
-- [WebSockets]()
+- [WebSockets](websockets.md)
 
 # Testing Fundamentals
 
