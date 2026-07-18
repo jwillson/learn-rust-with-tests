@@ -10,6 +10,9 @@ default-theme = "rust"
 preferred-dark-theme = "ayu"
 git-repository-url = "https://github.com/jwillson/learn-rust-with-tests"
 edit-url-template = "https://github.com/jwillson/learn-rust-with-tests/edit/main/{path}"
+# The book is served from a project subpath on GitHub Pages; this makes the 404
+# page and search links resolve correctly.
+site-url = "/learn-rust-with-tests/"
 
 [output.html.fold]
 enable = true
