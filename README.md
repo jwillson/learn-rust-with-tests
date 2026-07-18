@@ -83,6 +83,9 @@ All credit for the method, structure, and the idea of teaching a language this w
 goes to [Chris James][quii] and the Learn Go with Tests contributors. If you write
 Go, read the original — it's better than this, and it's where this came from.
 
+This is a community port, not affiliated with or endorsed by Chris James. Any
+mistakes in the Rust are mine, not his.
+
 Licensed [MIT](LICENSE), as is the original.
 
 [quii]: https://github.com/quii

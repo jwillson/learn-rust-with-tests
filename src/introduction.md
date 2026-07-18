@@ -16,6 +16,9 @@ This book is a port of [Learn Go with Tests][lgwt] by Chris James. The method, t
 chapter arc, and the conviction that you learn a language fastest by writing tests
 in it are all his. If you write Go, go read the original.
 
+It's a community port, not affiliated with or endorsed by Chris James. Any
+mistakes in the Rust are mine, not his.
+
 Porting it turned out not to be a translation exercise. Go and Rust disagree about
 what is hard, and the book had to move where the difficulty is. Go's chapter on
 pointers and errors becomes two chapters here, on ownership and on `Result`,
